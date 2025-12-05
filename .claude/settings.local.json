@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command:*)",
+      "SlashCommand(/speckit.tasks:*)",
+      "Bash($env:SPECIFY_FEATURE = 'physical-ai-robotics-book')",
+      "Bash(git rev-parse:*)",
+      "WebSearch",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

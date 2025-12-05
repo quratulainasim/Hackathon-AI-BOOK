@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Technical Accuracy & Clarity**: All technical details must be accurate and clearly explained for a computer science audience.
+- [ ] **Research & Citation Integrity**: Research must adhere to APA style, with >=50% peer-reviewed sources and 0% plagiarism.
+- [ ] **Content Scope & Length**: Plan must align with the book modules and target 5,000–7,000 words.
+- [ ] **Docusaurus & Output Format**: Plan must ensure output aligns with Docusaurus v3 Markdown and sidebars.js navigation.
+- [ ] **Deployment & Hosting**: Plan must consider GitHub Pages and Vercel deployment configurations.
 
 ## Project Structure
 

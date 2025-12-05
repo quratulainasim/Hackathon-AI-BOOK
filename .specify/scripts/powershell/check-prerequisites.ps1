@@ -16,6 +16,7 @@
 
 [CmdletBinding()]
 param(
+    [string]$FeatureName = "",
     [switch]$Json,
     [switch]$RequireTasks,
     [switch]$IncludeTasks,
@@ -33,6 +34,7 @@ Usage: check-prerequisites.ps1 [OPTIONS]
 Consolidated prerequisite checking for Spec-Driven Development workflow.
 
 OPTIONS:
+  -FeatureName        Specify the feature branch name directly
   -Json               Output in JSON format
   -RequireTasks       Require tasks.md to exist (for implementation phase)
   -IncludeTasks       Include tasks.md in AVAILABLE_DOCS list
@@ -55,6 +57,10 @@ EXAMPLES:
 
 # Source common functions
 . "$PSScriptRoot/common.ps1"
+
+if (-not [string]::IsNullOrEmpty($FeatureName)) {
+    $env:SPECIFY_FEATURE = $FeatureName
+}
 
 # Get feature paths and validate branch
 $paths = Get-FeaturePathsEnv
@@ -91,7 +97,6 @@ if (-not (Test-Path $paths.FEATURE_DIR -PathType Container)) {
     Write-Output "Run /speckit.specify first to create the feature structure."
     exit 1
 }
-
 if (-not (Test-Path $paths.IMPL_PLAN -PathType Leaf)) {
     Write-Output "ERROR: plan.md not found in $($paths.FEATURE_DIR)"
     Write-Output "Run /speckit.plan first to create the implementation plan."

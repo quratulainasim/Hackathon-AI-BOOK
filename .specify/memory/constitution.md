@@ -1,50 +1,48 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: (None) → 1.0.0
+- Modified principles:
+    - [PRINCIPLE_1_NAME] → Technical Accuracy & Clarity
+    - [PRINCIPLE_2_NAME] → Research & Citation Integrity
+    - [PRINCIPLE_3_NAME] → Content Scope & Length
+    - [PRINCIPLE_4_NAME] → Docusaurus & Output Format
+    - [PRINCIPLE_5_NAME] → Deployment & Hosting
+- Added sections:
+    - Project Goal (Section 2)
+    - Workflow & Review (Section 3)
+- Removed sections: N/A
+- Templates requiring updates:
+    - .specify/templates/plan-template.md (✅ updated)
+    - .specify/templates/spec-template.md (⚠ pending)
+    - .specify/templates/tasks-template.md (⚠ pending)
+- Follow-up TODOs: N/A
+-->
+# Physical AI & Humanoid Robotics Book using Docusaurus, Spec-Kit Plus, and Claude Code. Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy & Clarity
+The book must adhere to clear technical writing standards for a computer science audience. Content must be factually accurate and presented lucidly.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Research & Citation Integrity
+All content must be supported by a minimum of 15 APA-style citations, with at least 50% from peer-reviewed research. Zero plagiarism is strictly enforced.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Content Scope & Length
+The book must cover the specified modules: ROS 2 Fundamentals, Digital Twin Simulation, NVIDIA Isaac, and Vision-Language-Action. The final length must be between 5,000–7,000 words.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Docusaurus & Output Format
+The book will be formatted as a Docusaurus v3 docs site, outputting ready-to-publish Markdown files in `/docs` with `sidebars.js` navigation.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Project Goal
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+To write a technical book on Physical AI (ROS 2, Gazebo, NVIDIA Isaac, VLA robotics) and publish it as a Docusaurus site.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Workflow & Review
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All content will undergo plagiarism checks before final publication. Technical reviews will ensure accuracy and adherence to writing standards.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution defines the core principles and requirements for the "Physical AI & Humanoid Robotics Book". All contributions and development must align with these principles. Deviations require documented justification and approval.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
