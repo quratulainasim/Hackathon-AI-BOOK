@@ -1,0 +1,27 @@
+{
+  "id": "ros2-fundamentals/ros2-fundamentals",
+  "title": "ROS 2 Fundamentals",
+  "description": "ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.",
+  "source": "@site/docs/ros2-fundamentals/ros2-fundamentals.md",
+  "sourceDirName": "ros2-fundamentals",
+  "slug": "/ros2-fundamentals/",
+  "permalink": "/docs/ros2-fundamentals/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ros2-fundamentals",
+    "title": "ROS 2 Fundamentals",
+    "sidebar_label": "ROS 2 Fundamentals"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Architecture",
+    "permalink": "/docs/introduction/humanoid-architecture"
+  },
+  "next": {
+    "title": "Digital Twin Simulation",
+    "permalink": "/docs/digital-twin-sim/digital-twin-simulation"
+  }
+}

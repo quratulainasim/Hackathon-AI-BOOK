@@ -53,7 +53,7 @@
           {
             "type": "link",
             "label": "Digital Twin Simulation",
-            "href": "/docs/digital-twin-sim/",
+            "href": "/docs/digital-twin-sim/digital-twin-simulation",
             "docId": "digital-twin-sim/digital-twin-simulation",
             "unlisted": false
           }
@@ -83,7 +83,7 @@
           {
             "type": "link",
             "label": "Vision-Language-Action",
-            "href": "/docs/vla-humanoids/",
+            "href": "/docs/vla-humanoids/vision-language-action",
             "docId": "vla-humanoids/vision-language-action",
             "unlisted": false
           }

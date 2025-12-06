@@ -36,7 +36,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Capstone System Overview",
+                "title": "Capstone Overview",
                 "permalink": "/docs/capstone-overview/"
               },
               "next": {
@@ -69,9 +69,9 @@
             },
             {
               "id": "capstone-overview/capstone-overview",
-              "title": "Capstone System Overview",
+              "title": "Capstone Overview",
               "description": "This chapter provides a high-level overview of the integrated Capstone System, bringing together the concepts of Physical AI, ROS 2 fundamentals, Digital Twin Simulation, NVIDIA Isaac Platform, and Vision-Language-Action (VLA) for Humanoids into a cohesive functional architecture. It describes how these individual components interoperate to form a complete humanoid robotics solution capable of understanding natural language, perceiving its environment, planning actions, and executing them in a physical or simulated space.",
-              "source": "@site/docs/capstone-overview/index.md",
+              "source": "@site/docs/capstone-overview/capstone-overview.md",
               "sourceDirName": "capstone-overview",
               "slug": "/capstone-overview/",
               "permalink": "/docs/capstone-overview/",
@@ -81,13 +81,13 @@
               "version": "current",
               "frontMatter": {
                 "id": "capstone-overview",
-                "title": "Capstone System Overview",
-                "sidebar_label": "Capstone System Overview"
+                "title": "Capstone Overview",
+                "sidebar_label": "Capstone Overview"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Vision-Language-Action for Humanoids",
-                "permalink": "/docs/vla-humanoids/"
+                "title": "Vision-Language-Action",
+                "permalink": "/docs/vla-humanoids/vision-language-action"
               },
               "next": {
                 "title": "Glossary",
@@ -95,19 +95,19 @@
               }
             },
             {
-              "id": "digital-twin-sim/digital-twin-sim",
+              "id": "digital-twin-sim/digital-twin-simulation",
               "title": "Digital Twin Simulation",
               "description": "Digital twin simulation plays a crucial role in the development and testing of physical AI and humanoid robots. A digital twin is a virtual replica of a physical system, allowing for experimentation and analysis in a safe and cost-effective environment.",
-              "source": "@site/docs/digital-twin-sim/index.md",
+              "source": "@site/docs/digital-twin-sim/digital-twin-simulation.md",
               "sourceDirName": "digital-twin-sim",
-              "slug": "/digital-twin-sim/",
-              "permalink": "/docs/digital-twin-sim/",
+              "slug": "/digital-twin-sim/digital-twin-simulation",
+              "permalink": "/docs/digital-twin-sim/digital-twin-simulation",
               "draft": false,
               "unlisted": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "id": "digital-twin-sim",
+                "id": "digital-twin-simulation",
                 "title": "Digital Twin Simulation",
                 "sidebar_label": "Digital Twin Simulation"
               },
@@ -175,7 +175,7 @@
               "id": "nvidia-isaac/nvidia-isaac",
               "title": "NVIDIA Isaac",
               "description": "NVIDIA Isaac is a comprehensive platform for robotics development, offering tools and resources for simulation, AI-powered perception, navigation, and manipulation. It leverages NVIDIA's expertise in GPUs and AI to accelerate the development of autonomous robots, particularly in areas like factory automation, logistics, and humanoid robotics.",
-              "source": "@site/docs/nvidia-isaac/index.md",
+              "source": "@site/docs/nvidia-isaac/nvidia-isaac.md",
               "sourceDirName": "nvidia-isaac",
               "slug": "/nvidia-isaac/",
               "permalink": "/docs/nvidia-isaac/",
@@ -191,18 +191,18 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Digital Twin Simulation",
-                "permalink": "/docs/digital-twin-sim/"
+                "permalink": "/docs/digital-twin-sim/digital-twin-simulation"
               },
               "next": {
-                "title": "Vision-Language-Action for Humanoids",
-                "permalink": "/docs/vla-humanoids/"
+                "title": "Vision-Language-Action",
+                "permalink": "/docs/vla-humanoids/vision-language-action"
               }
             },
             {
               "id": "ros2-fundamentals/ros2-fundamentals",
               "title": "ROS 2 Fundamentals",
               "description": "ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.",
-              "source": "@site/docs/ros2-fundamentals/index.md",
+              "source": "@site/docs/ros2-fundamentals/ros2-fundamentals.md",
               "sourceDirName": "ros2-fundamentals",
               "slug": "/ros2-fundamentals/",
               "permalink": "/docs/ros2-fundamentals/",
@@ -222,25 +222,25 @@
               },
               "next": {
                 "title": "Digital Twin Simulation",
-                "permalink": "/docs/digital-twin-sim/"
+                "permalink": "/docs/digital-twin-sim/digital-twin-simulation"
               }
             },
             {
-              "id": "vla-humanoids/vla-humanoids",
-              "title": "Vision-Language-Action for Humanoids",
+              "id": "vla-humanoids/vision-language-action",
+              "title": "Vision-Language-Action",
               "description": "Vision-Language-Action (VLA) robotics is an emerging field that aims to enable robots to understand and execute complex instructions given in natural language, leveraging advances in large language models (LLMs) and multimodal AI. For humanoid robots, VLA allows for more intuitive and flexible interaction with human users and complex environments.",
-              "source": "@site/docs/vla-humanoids/index.md",
+              "source": "@site/docs/vla-humanoids/vision-language-action.md",
               "sourceDirName": "vla-humanoids",
-              "slug": "/vla-humanoids/",
-              "permalink": "/docs/vla-humanoids/",
+              "slug": "/vla-humanoids/vision-language-action",
+              "permalink": "/docs/vla-humanoids/vision-language-action",
               "draft": false,
               "unlisted": false,
               "tags": [],
               "version": "current",
               "frontMatter": {
-                "id": "vla-humanoids",
-                "title": "Vision-Language-Action for Humanoids",
-                "sidebar_label": "Vision-Language-Action for Humanoids"
+                "id": "vision-language-action",
+                "title": "Vision-Language-Action",
+                "sidebar_label": "Vision-Language-Action"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -248,7 +248,7 @@
                 "permalink": "/docs/nvidia-isaac/"
               },
               "next": {
-                "title": "Capstone System Overview",
+                "title": "Capstone Overview",
                 "permalink": "/docs/capstone-overview/"
               }
             }
@@ -290,7 +290,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "digital-twin-sim/digital-twin-sim"
+                    "id": "digital-twin-sim/digital-twin-simulation"
                   }
                 ],
                 "collapsed": true,
@@ -314,7 +314,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "vla-humanoids/vla-humanoids"
+                    "id": "vla-humanoids/vision-language-action"
                   }
                 ],
                 "collapsed": true,

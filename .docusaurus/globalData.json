@@ -27,7 +27,7 @@
             },
             {
               "id": "digital-twin-sim/digital-twin-simulation",
-              "path": "/docs/digital-twin-sim/",
+              "path": "/docs/digital-twin-sim/digital-twin-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -52,7 +52,7 @@
             },
             {
               "id": "vla-humanoids/vision-language-action",
-              "path": "/docs/vla-humanoids/",
+              "path": "/docs/vla-humanoids/vision-language-action",
               "sidebar": "tutorialSidebar"
             }
           ],

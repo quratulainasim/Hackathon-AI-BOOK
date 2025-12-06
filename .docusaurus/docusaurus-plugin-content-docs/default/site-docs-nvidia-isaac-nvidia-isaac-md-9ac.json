@@ -1,0 +1,27 @@
+{
+  "id": "nvidia-isaac/nvidia-isaac",
+  "title": "NVIDIA Isaac",
+  "description": "NVIDIA Isaac is a comprehensive platform for robotics development, offering tools and resources for simulation, AI-powered perception, navigation, and manipulation. It leverages NVIDIA's expertise in GPUs and AI to accelerate the development of autonomous robots, particularly in areas like factory automation, logistics, and humanoid robotics.",
+  "source": "@site/docs/nvidia-isaac/nvidia-isaac.md",
+  "sourceDirName": "nvidia-isaac",
+  "slug": "/nvidia-isaac/",
+  "permalink": "/docs/nvidia-isaac/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "nvidia-isaac",
+    "title": "NVIDIA Isaac",
+    "sidebar_label": "NVIDIA Isaac"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Digital Twin Simulation",
+    "permalink": "/docs/digital-twin-sim/digital-twin-simulation"
+  },
+  "next": {
+    "title": "Vision-Language-Action",
+    "permalink": "/docs/vla-humanoids/vision-language-action"
+  }
+}

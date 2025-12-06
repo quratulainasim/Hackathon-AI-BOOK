@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Physical AI & Humanoid Robotics Book',
   tagline: 'Embodied Intelligence, Robot Simulation, and VLA Robotics',
-  favicon: '/img/favicon.ico',
+  favicon: 'img/ai.png',
 
   // Set the production url of your site here
   url: 'https://hackathon-ai-book-rose.vercel.app', // Generic placeholder, update this if you deploy
@@ -12,7 +12,7 @@ const config = {
   // For GitHub Pages deployment, it is often '/<project-name>/'
   baseUrl: '/', // Keep this if serving under a subpath, change to '/' if serving from root
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
