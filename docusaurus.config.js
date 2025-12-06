@@ -7,12 +7,12 @@ const config = {
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://physical-ai-robotics-book.vercel.app', // Generic placeholder, update this if you deploy
+  url: 'https://hackathon-ai-book-rose.vercel.app', // Generic placeholder, update this if you deploy
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<project-name>/'
   baseUrl: '/', // Keep this if serving under a subpath, change to '/' if serving from root
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {

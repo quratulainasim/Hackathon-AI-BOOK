@@ -1,6 +1,6 @@
 {
-  "id": "vla-humanoids/vla-humanoids",
-  "title": "Vision-Language-Action for Humanoids",
+  "id": "vla-humanoids/vision-language-action",
+  "title": "Vision-Language-Action",
   "description": "Vision-Language-Action (VLA) robotics is an emerging field that aims to enable robots to understand and execute complex instructions given in natural language, leveraging advances in large language models (LLMs) and multimodal AI. For humanoid robots, VLA allows for more intuitive and flexible interaction with human users and complex environments.",
   "source": "@site/docs/vla-humanoids/index.md",
   "sourceDirName": "vla-humanoids",
@@ -11,9 +11,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "id": "vla-humanoids",
-    "title": "Vision-Language-Action for Humanoids",
-    "sidebar_label": "Vision-Language-Action for Humanoids"
+    "id": "vision-language-action",
+    "title": "Vision-Language-Action",
+    "sidebar_label": "Vision-Language-Action"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/docs/nvidia-isaac/"
   },
   "next": {
-    "title": "Capstone System Overview",
+    "title": "Capstone Overview",
     "permalink": "/docs/capstone-overview/"
   }
 }

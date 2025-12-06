@@ -1,5 +1,5 @@
 {
-  "id": "digital-twin-sim/digital-twin-sim",
+  "id": "digital-twin-sim/digital-twin-simulation",
   "title": "Digital Twin Simulation",
   "description": "Digital twin simulation plays a crucial role in the development and testing of physical AI and humanoid robots. A digital twin is a virtual replica of a physical system, allowing for experimentation and analysis in a safe and cost-effective environment.",
   "source": "@site/docs/digital-twin-sim/index.md",
@@ -11,7 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "id": "digital-twin-sim",
+    "id": "digital-twin-simulation",
     "title": "Digital Twin Simulation",
     "sidebar_label": "Digital Twin Simulation"
   },

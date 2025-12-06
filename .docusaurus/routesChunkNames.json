@@ -1,101 +1,58 @@
 {
-  "/__docusaurus/debug-d1d": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
-  "/__docusaurus/debug/config-07e": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
-  "/__docusaurus/debug/content-a99": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-7ae": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
-  "/__docusaurus/debug/metadata-133": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
-  "/__docusaurus/debug/registry-a3d": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
-  "/__docusaurus/debug/routes-532": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-0-e-014"
-    }
-  },
   "/docs-4e6": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docs-7-d-8-15d"
+      "plugin": "7d8f429e"
     }
   },
   "/docs-86c": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---docs-935-398"
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
   },
   "/docs-e8c": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/appendices/glossary-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-appendices-glossary-3-bc-f73"
+    "__comp": "17896441",
+    "content": "3bcc7dc1"
   },
   "/docs/appendices/references-8d4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-appendices-references-6-d-5-675"
+    "__comp": "17896441",
+    "content": "6d5e3433"
   },
   "/docs/capstone-overview/-52e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-capstone-overview-7-aa-71f"
+    "__comp": "17896441",
+    "content": "7aac9f17"
   },
   "/docs/digital-twin-sim/-eed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-digital-twin-sim-fa-6-4ef"
+    "__comp": "17896441",
+    "content": "fa62248a"
   },
   "/docs/introduction/humanoid-architecture-6c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-introduction-humanoid-architecture-269-b31"
+    "__comp": "17896441",
+    "content": "2692108c"
   },
   "/docs/introduction/physical-ai-0ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-introduction-physical-aie-01-c4c"
+    "__comp": "17896441",
+    "content": "e0135890"
   },
   "/docs/nvidia-isaac/-5e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-nvidia-isaac-c-7-b-e87"
+    "__comp": "17896441",
+    "content": "c7b39284"
   },
   "/docs/ros2-fundamentals/-b1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ros-2-fundamentals-b-6-f-e38"
+    "__comp": "17896441",
+    "content": "b6ffdf91"
   },
   "/docs/vla-humanoids/-da6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vla-humanoids-d-03-80d"
+    "__comp": "17896441",
+    "content": "d0316d34"
   },
   "/-72e": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---dc-9-632"
+      "plugin": "dc9deed6"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

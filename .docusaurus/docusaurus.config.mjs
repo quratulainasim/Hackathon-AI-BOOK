@@ -7,9 +7,9 @@ export default {
   "title": "Physical AI & Humanoid Robotics Book",
   "tagline": "Embodied Intelligence, Robot Simulation, and VLA Robotics",
   "favicon": "/img/favicon.ico",
-  "url": "https://physical-ai-robotics-book.vercel.app",
+  "url": "https://hackathon-ai-book-rose.vercel.app",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",

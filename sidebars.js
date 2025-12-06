@@ -28,7 +28,7 @@ const sidebars = {
       type: 'category',
       label: 'Digital Twin Simulation',
       items: [
-        'digital-twin-sim/digital-twin-sim',
+        'digital-twin-sim/digital-twin-simulation',
       ],
     },
     {
@@ -42,7 +42,7 @@ const sidebars = {
       type: 'category',
       label: 'Vision-Language-Action for Humanoids',
       items: [
-        'vla-humanoids/vla-humanoids',
+        'vla-humanoids/vision-language-action',
       ],
     },
     {
