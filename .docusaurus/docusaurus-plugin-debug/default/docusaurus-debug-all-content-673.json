@@ -1,0 +1,379 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "E:\\AI-BOOK\\sidebars.js",
+          "contentPath": "E:\\AI-BOOK\\docs",
+          "contentPathLocalized": "E:\\AI-BOOK\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "appendices/glossary",
+              "title": "Glossary",
+              "description": "This glossary provides definitions for key terms and concepts used throughout the book, related to Physical AI, humanoid robotics, ROS 2, digital twin simulation, NVIDIA Isaac, and Vision-Language-Action systems.",
+              "source": "@site/docs/appendices/glossary.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/glossary",
+              "permalink": "/docs/appendices/glossary",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "glossary",
+                "title": "Glossary",
+                "sidebar_label": "Glossary"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Capstone System Overview",
+                "permalink": "/docs/capstone-overview/"
+              },
+              "next": {
+                "title": "References",
+                "permalink": "/docs/appendices/references"
+              }
+            },
+            {
+              "id": "appendices/references",
+              "title": "References",
+              "description": "This section provides a comprehensive list of all sources cited throughout the \"Physical AI & Humanoid Robotics Book,\" formatted according to APA 7th edition guidelines. This list includes academic papers, technical documentation, books, and other relevant materials that informed the content of this work. A minimum of 15 sources, with at least 50% peer-reviewed academic articles, have been integrated to ensure the scientific rigor and credibility of the material presented.",
+              "source": "@site/docs/appendices/references.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/references",
+              "permalink": "/docs/appendices/references",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "references",
+                "title": "References",
+                "sidebar_label": "References"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/docs/appendices/glossary"
+              }
+            },
+            {
+              "id": "capstone-overview/capstone-overview",
+              "title": "Capstone System Overview",
+              "description": "This chapter provides a high-level overview of the integrated Capstone System, bringing together the concepts of Physical AI, ROS 2 fundamentals, Digital Twin Simulation, NVIDIA Isaac Platform, and Vision-Language-Action (VLA) for Humanoids into a cohesive functional architecture. It describes how these individual components interoperate to form a complete humanoid robotics solution capable of understanding natural language, perceiving its environment, planning actions, and executing them in a physical or simulated space.",
+              "source": "@site/docs/capstone-overview/index.md",
+              "sourceDirName": "capstone-overview",
+              "slug": "/capstone-overview/",
+              "permalink": "/docs/capstone-overview/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "capstone-overview",
+                "title": "Capstone System Overview",
+                "sidebar_label": "Capstone System Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Vision-Language-Action for Humanoids",
+                "permalink": "/docs/vla-humanoids/"
+              },
+              "next": {
+                "title": "Glossary",
+                "permalink": "/docs/appendices/glossary"
+              }
+            },
+            {
+              "id": "digital-twin-sim/digital-twin-sim",
+              "title": "Digital Twin Simulation",
+              "description": "Digital twin simulation plays a crucial role in the development and testing of physical AI and humanoid robots. A digital twin is a virtual replica of a physical system, allowing for experimentation and analysis in a safe and cost-effective environment.",
+              "source": "@site/docs/digital-twin-sim/index.md",
+              "sourceDirName": "digital-twin-sim",
+              "slug": "/digital-twin-sim/",
+              "permalink": "/docs/digital-twin-sim/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "digital-twin-sim",
+                "title": "Digital Twin Simulation",
+                "sidebar_label": "Digital Twin Simulation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/docs/ros2-fundamentals/"
+              },
+              "next": {
+                "title": "NVIDIA Isaac",
+                "permalink": "/docs/nvidia-isaac/"
+              }
+            },
+            {
+              "id": "introduction/humanoid-architecture",
+              "title": "Humanoid Architecture",
+              "description": "Humanoid Robot Architecture",
+              "source": "@site/docs/introduction/humanoid-architecture.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/humanoid-architecture",
+              "permalink": "/docs/introduction/humanoid-architecture",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "humanoid-architecture",
+                "title": "Humanoid Architecture",
+                "sidebar_label": "Humanoid Architecture"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physical AI",
+                "permalink": "/docs/introduction/physical-ai"
+              },
+              "next": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/docs/ros2-fundamentals/"
+              }
+            },
+            {
+              "id": "introduction/physical-ai",
+              "title": "Physical AI",
+              "description": "What is Physical AI?",
+              "source": "@site/docs/introduction/physical-ai.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/physical-ai",
+              "permalink": "/docs/introduction/physical-ai",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "physical-ai",
+                "title": "Physical AI",
+                "sidebar_label": "Physical AI"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Humanoid Architecture",
+                "permalink": "/docs/introduction/humanoid-architecture"
+              }
+            },
+            {
+              "id": "nvidia-isaac/nvidia-isaac",
+              "title": "NVIDIA Isaac",
+              "description": "NVIDIA Isaac is a comprehensive platform for robotics development, offering tools and resources for simulation, AI-powered perception, navigation, and manipulation. It leverages NVIDIA's expertise in GPUs and AI to accelerate the development of autonomous robots, particularly in areas like factory automation, logistics, and humanoid robotics.",
+              "source": "@site/docs/nvidia-isaac/index.md",
+              "sourceDirName": "nvidia-isaac",
+              "slug": "/nvidia-isaac/",
+              "permalink": "/docs/nvidia-isaac/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "nvidia-isaac",
+                "title": "NVIDIA Isaac",
+                "sidebar_label": "NVIDIA Isaac"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Digital Twin Simulation",
+                "permalink": "/docs/digital-twin-sim/"
+              },
+              "next": {
+                "title": "Vision-Language-Action for Humanoids",
+                "permalink": "/docs/vla-humanoids/"
+              }
+            },
+            {
+              "id": "ros2-fundamentals/ros2-fundamentals",
+              "title": "ROS 2 Fundamentals",
+              "description": "ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.",
+              "source": "@site/docs/ros2-fundamentals/index.md",
+              "sourceDirName": "ros2-fundamentals",
+              "slug": "/ros2-fundamentals/",
+              "permalink": "/docs/ros2-fundamentals/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "ros2-fundamentals",
+                "title": "ROS 2 Fundamentals",
+                "sidebar_label": "ROS 2 Fundamentals"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Humanoid Architecture",
+                "permalink": "/docs/introduction/humanoid-architecture"
+              },
+              "next": {
+                "title": "Digital Twin Simulation",
+                "permalink": "/docs/digital-twin-sim/"
+              }
+            },
+            {
+              "id": "vla-humanoids/vla-humanoids",
+              "title": "Vision-Language-Action for Humanoids",
+              "description": "Vision-Language-Action (VLA) robotics is an emerging field that aims to enable robots to understand and execute complex instructions given in natural language, leveraging advances in large language models (LLMs) and multimodal AI. For humanoid robots, VLA allows for more intuitive and flexible interaction with human users and complex environments.",
+              "source": "@site/docs/vla-humanoids/index.md",
+              "sourceDirName": "vla-humanoids",
+              "slug": "/vla-humanoids/",
+              "permalink": "/docs/vla-humanoids/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "vla-humanoids",
+                "title": "Vision-Language-Action for Humanoids",
+                "sidebar_label": "Vision-Language-Action for Humanoids"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NVIDIA Isaac",
+                "permalink": "/docs/nvidia-isaac/"
+              },
+              "next": {
+                "title": "Capstone System Overview",
+                "permalink": "/docs/capstone-overview/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction/physical-ai"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/humanoid-architecture"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "ROS 2 Fundamentals",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ros2-fundamentals/ros2-fundamentals"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Digital Twin Simulation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "digital-twin-sim/digital-twin-sim"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "NVIDIA Isaac Platform",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "nvidia-isaac/nvidia-isaac"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Vision-Language-Action for Humanoids",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "vla-humanoids/vla-humanoids"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Capstone System Overview",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "capstone-overview/capstone-overview"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Appendices",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "appendices/glossary"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/references"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

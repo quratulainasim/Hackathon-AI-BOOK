@@ -1,0 +1,27 @@
+{
+  "id": "appendices/glossary",
+  "title": "Glossary",
+  "description": "This glossary provides definitions for key terms and concepts used throughout the book, related to Physical AI, humanoid robotics, ROS 2, digital twin simulation, NVIDIA Isaac, and Vision-Language-Action systems.",
+  "source": "@site/docs/appendices/glossary.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/glossary",
+  "permalink": "/docs/appendices/glossary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary",
+    "sidebar_label": "Glossary"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone System Overview",
+    "permalink": "/docs/capstone-overview/"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/docs/appendices/references"
+  }
+}

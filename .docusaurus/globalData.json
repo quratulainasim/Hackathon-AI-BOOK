@@ -1,0 +1,73 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "introduction/physical-ai",
+          "docs": [
+            {
+              "id": "appendices/glossary",
+              "path": "/docs/appendices/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/references",
+              "path": "/docs/appendices/references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone-overview/capstone-overview",
+              "path": "/docs/capstone-overview/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "digital-twin-sim/digital-twin-sim",
+              "path": "/docs/digital-twin-sim/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/humanoid-architecture",
+              "path": "/docs/introduction/humanoid-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/physical-ai",
+              "path": "/docs/introduction/physical-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nvidia-isaac/nvidia-isaac",
+              "path": "/docs/nvidia-isaac/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-fundamentals",
+              "path": "/docs/ros2-fundamentals/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vla-humanoids/vla-humanoids",
+              "path": "/docs/vla-humanoids/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/introduction/physical-ai",
+                "label": "introduction/physical-ai"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,5 +1,5 @@
 ---
-id: digital-twin-sim
+id: digital-twin-simulation
 title: Digital Twin Simulation
 sidebar_label: Digital Twin Simulation
 ---

@@ -1,7 +1,7 @@
 ---
 id: humanoid-architecture
-title: Humanoid Robot Architecture
-sidebar_label: Humanoid Robot Architecture
+title: Humanoid Architecture
+sidebar_label: Humanoid Architecture
 ---
 
 ## Humanoid Robot Architecture

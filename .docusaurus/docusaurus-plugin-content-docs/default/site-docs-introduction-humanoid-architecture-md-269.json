@@ -1,0 +1,27 @@
+{
+  "id": "introduction/humanoid-architecture",
+  "title": "Humanoid Architecture",
+  "description": "Humanoid Robot Architecture",
+  "source": "@site/docs/introduction/humanoid-architecture.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/humanoid-architecture",
+  "permalink": "/docs/introduction/humanoid-architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "humanoid-architecture",
+    "title": "Humanoid Architecture",
+    "sidebar_label": "Humanoid Architecture"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI",
+    "permalink": "/docs/introduction/physical-ai"
+  },
+  "next": {
+    "title": "ROS 2 Fundamentals",
+    "permalink": "/docs/ros2-fundamentals/"
+  }
+}

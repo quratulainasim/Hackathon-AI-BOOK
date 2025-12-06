@@ -1,7 +1,7 @@
 ---
 id: physical-ai
-title: What is Physical AI?
-sidebar_label: What is Physical AI?
+title: Physical AI
+sidebar_label: Physical AI
 ---
 
 ## What is Physical AI?

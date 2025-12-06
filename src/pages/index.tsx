@@ -14,7 +14,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className="button_container">
-          <a href="/physical-ai-robotics-book/docs/introduction/physical-ai" className="button button--secondary button--lg">
+          <a href="/docs/introduction/physical-ai" className="button button--secondary button--lg">
             Start Reading
           </a>
         </div>

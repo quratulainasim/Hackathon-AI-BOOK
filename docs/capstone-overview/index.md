@@ -1,7 +1,7 @@
 ---
 id: capstone-overview
-title: Capstone System Overview
-sidebar_label: Capstone System Overview
+title: Capstone Overview
+sidebar_label: Capstone Overview
 ---
 
 # Capstone System Overview

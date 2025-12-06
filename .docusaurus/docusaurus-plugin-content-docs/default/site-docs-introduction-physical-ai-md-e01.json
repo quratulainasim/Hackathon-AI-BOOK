@@ -1,0 +1,23 @@
+{
+  "id": "introduction/physical-ai",
+  "title": "Physical AI",
+  "description": "What is Physical AI?",
+  "source": "@site/docs/introduction/physical-ai.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/physical-ai",
+  "permalink": "/docs/introduction/physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "physical-ai",
+    "title": "Physical AI",
+    "sidebar_label": "Physical AI"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Humanoid Architecture",
+    "permalink": "/docs/introduction/humanoid-architecture"
+  }
+}

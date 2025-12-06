@@ -1,7 +1,7 @@
 ---
 id: nvidia-isaac
-title: NVIDIA Isaac Platform
-sidebar_label: NVIDIA Isaac Platform
+title: NVIDIA Isaac 
+sidebar_label: NVIDIA Isaac 
 ---
 
 # NVIDIA Isaac Platform

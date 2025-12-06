@@ -1,0 +1,23 @@
+{
+  "id": "appendices/references",
+  "title": "References",
+  "description": "This section provides a comprehensive list of all sources cited throughout the \"Physical AI & Humanoid Robotics Book,\" formatted according to APA 7th edition guidelines. This list includes academic papers, technical documentation, books, and other relevant materials that informed the content of this work. A minimum of 15 sources, with at least 50% peer-reviewed academic articles, have been integrated to ensure the scientific rigor and credibility of the material presented.",
+  "source": "@site/docs/appendices/references.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/references",
+  "permalink": "/docs/appendices/references",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "references",
+    "title": "References",
+    "sidebar_label": "References"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/docs/appendices/glossary"
+  }
+}

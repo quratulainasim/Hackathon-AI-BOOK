@@ -1,0 +1,27 @@
+{
+  "id": "capstone-overview/capstone-overview",
+  "title": "Capstone System Overview",
+  "description": "This chapter provides a high-level overview of the integrated Capstone System, bringing together the concepts of Physical AI, ROS 2 fundamentals, Digital Twin Simulation, NVIDIA Isaac Platform, and Vision-Language-Action (VLA) for Humanoids into a cohesive functional architecture. It describes how these individual components interoperate to form a complete humanoid robotics solution capable of understanding natural language, perceiving its environment, planning actions, and executing them in a physical or simulated space.",
+  "source": "@site/docs/capstone-overview/index.md",
+  "sourceDirName": "capstone-overview",
+  "slug": "/capstone-overview/",
+  "permalink": "/docs/capstone-overview/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "capstone-overview",
+    "title": "Capstone System Overview",
+    "sidebar_label": "Capstone System Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision-Language-Action for Humanoids",
+    "permalink": "/docs/vla-humanoids/"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/appendices/glossary"
+  }
+}

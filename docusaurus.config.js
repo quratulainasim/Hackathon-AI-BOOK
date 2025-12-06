@@ -4,13 +4,13 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Physical AI & Humanoid Robotics Book',
   tagline: 'Embodied Intelligence, Robot Simulation, and VLA Robotics',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://example.com', // Generic placeholder, update this if you deploy
+  url: 'https://physical-ai-robotics-book.vercel.app', // Generic placeholder, update this if you deploy
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<project-name>/'
-  baseUrl: '/physical-ai-robotics-book/', // Keep this if serving under a subpath, change to '/' if serving from root
+  baseUrl: '/', // Keep this if serving under a subpath, change to '/' if serving from root
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,7 +54,7 @@ const config = {
         title: 'Physical AI & Humanoid Robotics Book',
         logo: {
           alt: 'My Project Logo',
-          src: 'img/ai.png',
+          src: '/img/ai.png',
         },
         items: [
           {

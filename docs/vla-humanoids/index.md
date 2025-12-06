@@ -1,7 +1,7 @@
 ---
-id: vla-humanoids
-title: Vision-Language-Action for Humanoids
-sidebar_label: Vision-Language-Action for Humanoids
+id: vision-language-action
+title: Vision-Language-Action
+sidebar_label: Vision-Language-Action
 ---
 
 # Vision-Language-Action for Humanoids
