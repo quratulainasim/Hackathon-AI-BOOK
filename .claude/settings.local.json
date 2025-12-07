@@ -1,12 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(powershell -Command:*)",
-      "SlashCommand(/speckit.tasks:*)",
-      "Bash($env:SPECIFY_FEATURE = 'physical-ai-robotics-book')",
-      "Bash(git rev-parse:*)",
-      "WebSearch",
-      "Bash(mkdir:*)"
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(python test_qdrant_integration.py)"
     ],
     "deny": [],
     "ask": []

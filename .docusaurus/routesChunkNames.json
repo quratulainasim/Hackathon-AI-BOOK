@@ -1,58 +1,101 @@
 {
-  "/docs-ca3": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-d1d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "7d8f429e"
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/__docusaurus/debug/config-07e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/__docusaurus/debug/content-a99": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-7ae": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/__docusaurus/debug/metadata-133": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/__docusaurus/debug/registry-a3d": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/__docusaurus/debug/routes-532": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-0-e-014"
+    }
+  },
+  "/docs-ca3": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-7-d-8-15d"
     }
   },
   "/docs-44c": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
   },
   "/docs-52b": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/appendices/glossary-aed": {
-    "__comp": "17896441",
-    "content": "3bcc7dc1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-glossary-3-bc-f73"
   },
   "/docs/appendices/references-8d4": {
-    "__comp": "17896441",
-    "content": "6d5e3433"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-appendices-references-6-d-5-675"
   },
   "/docs/capstone-overview/-779": {
-    "__comp": "17896441",
-    "content": "e85a95ee"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-capstone-overview-e-85-a86"
   },
   "/docs/digital-twin-sim/digital-twin-simulation-342": {
-    "__comp": "17896441",
-    "content": "7dbd2034"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-digital-twin-sim-digital-twin-simulation-7-db-b16"
   },
   "/docs/introduction/humanoid-architecture-6c0": {
-    "__comp": "17896441",
-    "content": "2692108c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-humanoid-architecture-269-b31"
   },
   "/docs/introduction/physical-ai-0ae": {
-    "__comp": "17896441",
-    "content": "e0135890"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-physical-aie-01-c4c"
   },
   "/docs/nvidia-isaac/-ff5": {
-    "__comp": "17896441",
-    "content": "9ac54a6a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-nvidia-isaac-9-ac-338"
   },
   "/docs/ros2-fundamentals/-f5e": {
-    "__comp": "17896441",
-    "content": "ccf0e7b2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ros-2-fundamentals-ccf-f63"
   },
   "/docs/vla-humanoids/vision-language-action-1d7": {
-    "__comp": "17896441",
-    "content": "1da4e238"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vla-humanoids-vision-language-action-1-da-6b3"
   },
   "/-72e": {
-    "__comp": "1df93b7f",
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "dc9deed6"
+      "plugin": "plugin---dc-9-632"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }

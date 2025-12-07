@@ -1,0 +1,187 @@
+# Monitoring and Logging Configuration for AI-BOOK RAG Chatbot
+
+# Application Logging Configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    file:
+      enabled: true
+      filename: "logs/app.log"
+      max_bytes: 10485760  # 10MB
+      backup_count: 5
+    console:
+      enabled: true
+    rotating_file:
+      enabled: true
+      filename: "logs/app_rotating.log"
+      when: "midnight"
+      interval: 1
+      backup_count: 7
+
+# API Request Logging
+api_logging:
+  enabled: true
+  log_requests: true
+  log_responses: false  # Set to true only for debugging, not in production
+  log_headers: false
+  log_body: false
+  sensitive_headers:
+    - "Authorization"
+    - "X-Api-Key"
+    - "Cookie"
+
+# Performance Monitoring
+performance_monitoring:
+  enabled: true
+  metrics:
+    - response_time
+    - request_count
+    - error_rate
+    - memory_usage
+    - cpu_usage
+  collection_interval: 30s  # Collect metrics every 30 seconds
+
+# Health Checks
+health_checks:
+  endpoints:
+    - path: "/health"
+      expected_status: 200
+      timeout: 5s
+      interval: 60s
+  database:
+    enabled: true
+    timeout: 10s
+    interval: 30s
+  vector_db:
+    enabled: true
+    timeout: 10s
+    interval: 30s
+  llm_service:
+    enabled: true
+    timeout: 15s
+    interval: 60s
+
+# Error Tracking
+error_tracking:
+  enabled: true
+  log_level: ERROR
+  notification_threshold: 5  # Send alert after 5 errors in 5 minutes
+  error_types:
+    - "5xx_server_errors"
+    - "database_connection_errors"
+    - "llm_service_errors"
+    - "vector_db_errors"
+
+# Monitoring Tools Integration
+monitoring_tools:
+  prometheus:
+    enabled: true
+    endpoint: "/metrics"
+    port: 9090
+  grafana:
+    dashboard_templates:
+      - "api_performance.json"
+      - "system_health.json"
+      - "user_engagement.json"
+
+# Alerting Configuration
+alerts:
+  conditions:
+    high_error_rate:
+      threshold: 5  # errors per minute
+      duration: 5m
+    slow_response_time:
+      threshold: 5000  # milliseconds
+      duration: 2m
+    low_success_rate:
+      threshold: 0.8  # 80% success rate
+      duration: 5m
+  notifications:
+    email:
+      enabled: false
+      recipients: []
+    webhook:
+      enabled: false
+      url: ""
+    slack:
+      enabled: false
+      webhook_url: ""
+
+# Log Retention
+log_retention:
+  application_logs: 30d  # Keep application logs for 30 days
+  access_logs: 14d      # Keep access logs for 14 days
+  error_logs: 90d       # Keep error logs for 90 days
+
+# Monitoring Dashboard Configuration
+dashboard:
+  enabled: true
+  port: 8080
+  endpoints:
+    - name: "API Performance"
+      metrics: ["response_time_p95", "requests_per_minute", "error_rate"]
+    - name: "System Health"
+      metrics: ["memory_usage", "cpu_usage", "disk_usage"]
+    - name: "User Engagement"
+      metrics: ["active_users", "questions_asked", "documents_processed"]
+
+# Backend Service Monitoring
+backend_monitoring:
+  fastapi:
+    middleware:
+      - name: "timing_middleware"
+        enabled: true
+      - name: "logging_middleware"
+        enabled: true
+      - name: "metrics_middleware"
+        enabled: true
+  database:
+    connection_pool:
+      max_size: 20
+      min_size: 5
+      timeout: 30s
+    query_monitoring:
+      slow_query_threshold: 1000ms
+      enabled: true
+  qdrant:
+    health_check_interval: 30s
+    performance_monitoring: true
+
+# Frontend Monitoring (Client-side)
+frontend_monitoring:
+  error_reporting: true
+  performance_timing: true
+  user_interaction_tracking: true
+  session_recording: false
+
+# Security Monitoring
+security_monitoring:
+  authentication_failures:
+    threshold: 5
+    window: 5m
+  suspicious_requests:
+    enabled: true
+    patterns:
+      - "sql_injection"
+      - "xss_attempts"
+      - "path_traversal"
+  access_logging: true
+
+# Monitoring Implementation Notes:
+implementation_notes: |
+  1. For Python/FastAPI backend:
+     - Use structlog for structured logging
+     - Implement custom middleware for request/response logging
+     - Use Prometheus client for metrics collection
+     - Implement health check endpoints
+
+  2. For Docusaurus frontend:
+     - Use browser console for client-side error logging
+     - Implement error boundaries for React components
+     - Use performance API for timing metrics
+
+  3. For deployment:
+     - Set up log aggregation with ELK stack or similar
+     - Configure alerting with tools like Alertmanager
+     - Set up monitoring dashboards with Grafana
