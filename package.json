@@ -10,7 +10,10 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "backend:start": "cd backend && uvicorn main:app --reload --port 8000",
+    "backend:deploy": "echo 'Deploy backend to Railway using: npx @railway/cli up'",
+    "deploy:both": "echo 'Deploy frontend to Vercel and backend to Railway separately'"
   },
   "dependencies": {
     "@docusaurus/core": "3.2.1",

@@ -1,0 +1,25 @@
+{
+  "build": {
+    "builder": "heroku/buildpacks:20"
+  },
+  "deploy": {
+    "startCommand": "cd backend && uvicorn main:app --host=0.0.0.0 --port=$PORT"
+  },
+  "env": {
+    "GEMINI_API_KEY": {
+      "required": true
+    },
+    "QDRANT_URL": {
+      "required": true
+    },
+    "QDRANT_API_KEY": {
+      "required": true
+    },
+    "QDRANT_COLLECTION_NAME": {
+      "required": true
+    },
+    "NEON_DB_URL": {
+      "required": true
+    }
+  }
+}
