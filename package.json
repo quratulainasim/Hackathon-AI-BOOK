@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cd frontend && docusaurus start",
-    "build": "cd frontend && docusaurus build",
-    "serve": "cd frontend && docusaurus serve",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
     "backend:start": "cd backend && uvicorn main:app --reload --port 8000",
     "deploy:both": "echo 'Deploy frontend to Vercel and backend to Railway separately'"
   },
