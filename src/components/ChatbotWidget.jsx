@@ -7,10 +7,10 @@ function ChatbotWidget() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Backend API base URL - using window object for Docusaurus compatibility
+  // Backend API base URL - using the deployed Railway URL
   const API_BASE_URL = typeof window !== 'undefined'
-    ? (window.ENV?.REACT_APP_API_BASE_URL || 'http://localhost:8000')  // Backend running on port 8000
-    : 'http://localhost:8000';  // Backend running on port 8000
+    ? (window.ENV?.REACT_APP_API_BASE_URL || 'https://web-production-f4f4c.up.railway.app')  // Deployed Railway backend
+    : 'https://web-production-f4f4c.up.railway.app';  // Deployed Railway backend
 
   const toggleChat = () => {
     setIsOpen(!isOpen);

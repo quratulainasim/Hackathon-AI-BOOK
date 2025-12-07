@@ -7,10 +7,10 @@ const AdminPanel = () => {
   const [uploadStatus, setUploadStatus] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
 
-  // Backend API base URL - using window object for Docusaurus compatibility
+  // Backend API base URL - using the deployed Railway URL
   const API_BASE_URL = typeof window !== 'undefined'
-    ? (window.REACT_APP_API_BASE_URL || 'http://localhost:8000')
-    : 'http://localhost:8000';
+    ? (window.REACT_APP_API_BASE_URL || 'https://web-production-f4f4c.up.railway.app')  // Deployed Railway backend
+    : 'https://web-production-f4f4c.up.railway.app';  // Deployed Railway backend
 
   // Fetch documents from backend
   const fetchDocuments = async () => {
