@@ -1,0 +1,1054 @@
+2025-12-07 03:47:13,818 - main - INFO - Request: GET /health
+2025-12-07 03:47:13,818 - main - INFO - Request: GET /health
+2025-12-07 03:47:13,819 - main - INFO - Response: 200
+2025-12-07 03:47:13,819 - main - INFO - Response: 200
+2025-12-07 03:51:39,035 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:51:39,035 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:51:39,036 - main - INFO - Response: 405
+2025-12-07 03:51:39,036 - main - INFO - Response: 405
+2025-12-07 03:53:21,727 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:53:21,727 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:53:21,729 - main - INFO - Response: 405
+2025-12-07 03:53:21,729 - main - INFO - Response: 405
+2025-12-07 03:55:41,555 - main - INFO - Request: GET /health
+2025-12-07 03:55:41,555 - main - INFO - Request: GET /health
+2025-12-07 03:55:41,558 - main - INFO - Response: 200
+2025-12-07 03:55:41,558 - main - INFO - Response: 200
+2025-12-07 03:59:07,249 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:59:07,249 - main - INFO - Request: OPTIONS /ask
+2025-12-07 03:59:07,250 - main - INFO - Response: 200
+2025-12-07 03:59:07,250 - main - INFO - Response: 200
+2025-12-07 04:01:11,215 - main - INFO - Request: POST /ask
+2025-12-07 04:01:11,215 - main - INFO - Request: POST /ask
+2025-12-07 04:01:13,930 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:01:13,930 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:01:14,452 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:01:14,452 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:01:19,911 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:01:19,911 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:01:19,931 - main - INFO - Response: 200
+2025-12-07 04:01:19,931 - main - INFO - Response: 200
+2025-12-07 04:04:12,304 - main - INFO - Request: POST /ask
+2025-12-07 04:04:12,304 - main - INFO - Request: POST /ask
+2025-12-07 04:04:14,566 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:04:14,566 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:04:15,101 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:04:15,101 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:04:18,550 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:04:18,550 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:04:18,577 - main - INFO - Response: 200
+2025-12-07 04:04:18,577 - main - INFO - Response: 200
+2025-12-07 04:05:34,862 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:05:34,862 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:05:34,863 - main - INFO - Response: 200
+2025-12-07 04:05:34,863 - main - INFO - Response: 200
+2025-12-07 04:05:34,867 - main - INFO - Request: POST /ask
+2025-12-07 04:05:34,867 - main - INFO - Request: POST /ask
+2025-12-07 04:05:36,019 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:05:36,019 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:05:36,543 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:05:36,543 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:05:40,428 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:05:40,428 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:05:40,438 - main - INFO - Response: 200
+2025-12-07 04:05:40,438 - main - INFO - Response: 200
+2025-12-07 04:06:06,244 - main - INFO - Request: POST /ask
+2025-12-07 04:06:06,244 - main - INFO - Request: POST /ask
+2025-12-07 04:06:07,401 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:06:07,401 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:06:07,897 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:06:07,897 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:06:11,087 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:06:11,087 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:06:11,100 - main - INFO - Response: 200
+2025-12-07 04:06:11,100 - main - INFO - Response: 200
+2025-12-07 04:22:58,217 - main - INFO - Request: POST /ask
+2025-12-07 04:22:58,217 - main - INFO - Request: POST /ask
+2025-12-07 04:22:59,366 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:22:59,366 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:22:59,887 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:22:59,887 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:23:12,662 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:23:12,662 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:23:12,664 - main - INFO - Response: 200
+2025-12-07 04:23:12,664 - main - INFO - Response: 200
+2025-12-07 04:23:40,611 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:23:40,611 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:23:40,612 - main - INFO - Response: 200
+2025-12-07 04:23:40,612 - main - INFO - Response: 200
+2025-12-07 04:23:40,616 - main - INFO - Request: POST /ask
+2025-12-07 04:23:40,616 - main - INFO - Request: POST /ask
+2025-12-07 04:23:41,772 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:23:41,772 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:23:42,309 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:23:42,309 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:23:54,040 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:23:54,040 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:23:54,050 - main - INFO - Response: 200
+2025-12-07 04:23:54,050 - main - INFO - Response: 200
+2025-12-07 04:24:13,273 - main - INFO - Request: POST /ask
+2025-12-07 04:24:13,273 - main - INFO - Request: POST /ask
+2025-12-07 04:24:14,447 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:24:14,447 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:24:14,977 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:24:14,977 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:24:27,561 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:24:27,561 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:24:27,575 - main - INFO - Response: 200
+2025-12-07 04:24:27,575 - main - INFO - Response: 200
+2025-12-07 04:25:00,955 - main - INFO - Request: POST /ask
+2025-12-07 04:25:00,955 - main - INFO - Request: POST /ask
+2025-12-07 04:25:02,105 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:25:02,105 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:25:02,622 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:25:02,622 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:25:14,480 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:25:14,480 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:25:14,483 - main - INFO - Response: 200
+2025-12-07 04:25:14,483 - main - INFO - Response: 200
+2025-12-07 04:25:39,052 - main - INFO - Request: POST /ask
+2025-12-07 04:25:39,052 - main - INFO - Request: POST /ask
+2025-12-07 04:25:40,222 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:25:40,222 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:25:40,729 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:25:40,729 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:25:53,258 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:25:53,258 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:25:53,263 - main - INFO - Response: 200
+2025-12-07 04:25:53,263 - main - INFO - Response: 200
+2025-12-07 04:26:02,286 - main - INFO - Request: POST /ask
+2025-12-07 04:26:02,286 - main - INFO - Request: POST /ask
+2025-12-07 04:26:03,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:26:03,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:26:03,933 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:26:03,933 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:26:15,679 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:26:15,679 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:26:15,683 - main - INFO - Response: 200
+2025-12-07 04:26:15,683 - main - INFO - Response: 200
+2025-12-07 04:26:27,047 - main - INFO - Request: POST /ask
+2025-12-07 04:26:27,047 - main - INFO - Request: POST /ask
+2025-12-07 04:26:28,195 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:26:28,195 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:26:28,703 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:26:28,703 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:26:41,718 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:26:41,718 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:26:41,722 - main - INFO - Response: 200
+2025-12-07 04:26:41,722 - main - INFO - Response: 200
+2025-12-07 04:30:12,694 - main - INFO - Request: POST /ask
+2025-12-07 04:30:12,694 - main - INFO - Request: POST /ask
+2025-12-07 04:30:13,877 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:30:13,877 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:30:14,374 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:30:14,374 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:30:27,735 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:30:27,735 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:30:27,742 - main - INFO - Response: 200
+2025-12-07 04:30:27,742 - main - INFO - Response: 200
+2025-12-07 04:33:17,756 - main - INFO - Request: POST /ask
+2025-12-07 04:33:17,756 - main - INFO - Request: POST /ask
+2025-12-07 04:33:18,909 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:33:18,909 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:33:19,430 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:33:19,430 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:33:30,256 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:33:30,256 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:33:30,259 - main - INFO - Response: 200
+2025-12-07 04:33:30,259 - main - INFO - Response: 200
+2025-12-07 04:38:39,646 - main - INFO - Request: POST /ask
+2025-12-07 04:38:39,646 - main - INFO - Request: POST /ask
+2025-12-07 04:38:42,011 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:38:42,011 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:38:42,507 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:38:42,507 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:39:03,669 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:39:03,669 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:39:03,694 - main - INFO - Response: 200
+2025-12-07 04:39:03,694 - main - INFO - Response: 200
+2025-12-07 04:42:14,858 - main - INFO - Request: POST /ask
+2025-12-07 04:42:14,858 - main - INFO - Request: POST /ask
+2025-12-07 04:42:17,144 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:42:17,144 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:42:17,655 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:42:17,655 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:42:37,463 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:42:37,463 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:42:37,479 - main - INFO - Response: 200
+2025-12-07 04:42:37,479 - main - INFO - Response: 200
+2025-12-07 04:43:11,695 - main - INFO - Request: POST /ask
+2025-12-07 04:43:11,695 - main - INFO - Request: POST /ask
+2025-12-07 04:43:12,855 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:43:12,855 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:43:13,389 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:43:13,389 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:43:34,174 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:43:34,174 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:43:34,177 - main - INFO - Response: 200
+2025-12-07 04:43:34,177 - main - INFO - Response: 200
+2025-12-07 04:44:24,558 - main - INFO - Request: POST /ask
+2025-12-07 04:44:24,558 - main - INFO - Request: POST /ask
+2025-12-07 04:44:25,752 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:44:25,752 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:44:26,281 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:44:26,281 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:44:47,408 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:44:47,408 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:44:47,410 - main - INFO - Response: 200
+2025-12-07 04:44:47,410 - main - INFO - Response: 200
+2025-12-07 04:45:31,824 - main - INFO - Request: POST /ask
+2025-12-07 04:45:31,824 - main - INFO - Request: POST /ask
+2025-12-07 04:45:33,015 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:45:33,015 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:45:33,549 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:45:33,549 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:45:53,702 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:45:53,702 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:45:53,706 - main - INFO - Response: 200
+2025-12-07 04:45:53,706 - main - INFO - Response: 200
+2025-12-07 04:51:13,219 - main - INFO - Request: POST /ask
+2025-12-07 04:51:13,219 - main - INFO - Request: POST /ask
+2025-12-07 04:51:15,553 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:51:15,553 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:51:16,051 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:51:16,051 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:51:45,808 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:51:45,808 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 04:51:45,825 - main - INFO - Response: 200
+2025-12-07 04:51:45,825 - main - INFO - Response: 200
+2025-12-07 04:52:26,504 - main - INFO - Request: POST /ask
+2025-12-07 04:52:26,504 - main - INFO - Request: POST /ask
+2025-12-07 04:52:27,984 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:52:27,984 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:52:28,518 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:52:28,518 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:52:55,408 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:55,408 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:55,415 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454610 seconds
+2025-12-07 04:52:55,415 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454610 seconds
+2025-12-07 04:52:56,547 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:56,547 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:56,548 - openai._base_client - INFO - Retrying request to /chat/completions in 0.933006 seconds
+2025-12-07 04:52:56,548 - openai._base_client - INFO - Retrying request to /chat/completions in 0.933006 seconds
+2025-12-07 04:52:58,166 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:58,166 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:52:58,169 - main - INFO - Response: 200
+2025-12-07 04:52:58,169 - main - INFO - Response: 200
+2025-12-07 04:53:42,464 - main - INFO - Request: POST /ask
+2025-12-07 04:53:42,464 - main - INFO - Request: POST /ask
+2025-12-07 04:53:43,953 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:53:43,953 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:53:44,517 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:53:44,517 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:54:11,488 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:11,488 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:11,489 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486361 seconds
+2025-12-07 04:54:11,489 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486361 seconds
+2025-12-07 04:54:12,640 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:12,640 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:12,642 - openai._base_client - INFO - Retrying request to /chat/completions in 0.767396 seconds
+2025-12-07 04:54:12,642 - openai._base_client - INFO - Retrying request to /chat/completions in 0.767396 seconds
+2025-12-07 04:54:14,082 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:14,082 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:54:14,085 - main - INFO - Response: 200
+2025-12-07 04:54:14,085 - main - INFO - Response: 200
+2025-12-07 04:58:30,627 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:58:30,627 - main - INFO - Request: OPTIONS /ask
+2025-12-07 04:58:30,628 - main - INFO - Response: 200
+2025-12-07 04:58:30,628 - main - INFO - Response: 200
+2025-12-07 04:58:30,632 - main - INFO - Request: POST /ask
+2025-12-07 04:58:30,632 - main - INFO - Request: POST /ask
+2025-12-07 04:58:31,800 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:58:31,800 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 04:58:32,319 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:58:32,319 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 04:58:58,909 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:58:58,909 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:58:58,910 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454577 seconds
+2025-12-07 04:58:58,910 - openai._base_client - INFO - Retrying request to /chat/completions in 0.454577 seconds
+2025-12-07 04:59:00,047 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:59:00,047 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:59:00,049 - openai._base_client - INFO - Retrying request to /chat/completions in 0.944477 seconds
+2025-12-07 04:59:00,049 - openai._base_client - INFO - Retrying request to /chat/completions in 0.944477 seconds
+2025-12-07 04:59:01,652 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:59:01,652 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 04:59:01,657 - main - INFO - Response: 200
+2025-12-07 04:59:01,657 - main - INFO - Response: 200
+2025-12-07 05:01:50,441 - main - INFO - Request: POST /ask
+2025-12-07 05:01:50,441 - main - INFO - Request: POST /ask
+2025-12-07 05:01:52,731 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:01:52,731 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:01:53,265 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:01:53,265 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:02:04,848 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:02:04,848 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:02:04,869 - main - INFO - Response: 200
+2025-12-07 05:02:04,869 - main - INFO - Response: 200
+2025-12-07 05:02:38,817 - main - INFO - Request: POST /ask
+2025-12-07 05:02:38,817 - main - INFO - Request: POST /ask
+2025-12-07 05:02:40,006 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:02:40,006 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:02:40,546 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:02:40,546 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:02:53,336 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:02:53,336 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:02:53,343 - main - INFO - Response: 200
+2025-12-07 05:02:53,343 - main - INFO - Response: 200
+2025-12-07 05:03:29,622 - main - INFO - Request: GET /health
+2025-12-07 05:03:29,622 - main - INFO - Request: GET /health
+2025-12-07 05:03:29,623 - main - INFO - Response: 200
+2025-12-07 05:03:29,623 - main - INFO - Response: 200
+2025-12-07 05:05:19,890 - main - INFO - Request: POST /ask
+2025-12-07 05:05:19,890 - main - INFO - Request: POST /ask
+2025-12-07 05:05:21,041 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:05:21,041 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:05:21,544 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:05:21,544 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:05:33,807 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:05:33,807 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:05:33,812 - main - INFO - Response: 200
+2025-12-07 05:05:33,812 - main - INFO - Response: 200
+2025-12-07 05:06:02,567 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:06:02,567 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:06:02,568 - main - INFO - Response: 200
+2025-12-07 05:06:02,568 - main - INFO - Response: 200
+2025-12-07 05:06:02,579 - main - INFO - Request: POST /ask
+2025-12-07 05:06:02,579 - main - INFO - Request: POST /ask
+2025-12-07 05:06:03,728 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:06:03,728 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:06:04,228 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:06:04,228 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:06:17,115 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:06:17,115 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:06:17,120 - main - INFO - Response: 200
+2025-12-07 05:06:17,120 - main - INFO - Response: 200
+2025-12-07 05:06:45,225 - main - INFO - Request: POST /ask
+2025-12-07 05:06:45,225 - main - INFO - Request: POST /ask
+2025-12-07 05:06:46,394 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:06:46,394 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:06:46,937 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:06:46,937 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:07:00,652 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:07:00,652 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:07:00,658 - main - INFO - Response: 200
+2025-12-07 05:07:00,658 - main - INFO - Response: 200
+2025-12-07 05:11:32,073 - main - INFO - Request: POST /ask
+2025-12-07 05:11:32,073 - main - INFO - Request: POST /ask
+2025-12-07 05:11:37,274 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:11:37,274 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:11:37,301 - main - INFO - Response: 200
+2025-12-07 05:11:37,301 - main - INFO - Response: 200
+2025-12-07 05:12:02,364 - main - INFO - Request: POST /ask
+2025-12-07 05:12:02,364 - main - INFO - Request: POST /ask
+2025-12-07 05:12:03,530 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:12:03,530 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:12:04,103 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:12:04,103 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:12:17,566 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:12:17,566 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:12:17,570 - main - INFO - Response: 200
+2025-12-07 05:12:17,570 - main - INFO - Response: 200
+2025-12-07 05:12:27,997 - main - INFO - Request: POST /ask
+2025-12-07 05:12:27,997 - main - INFO - Request: POST /ask
+2025-12-07 05:12:29,144 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:12:29,144 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:12:29,668 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:12:29,668 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:12:40,514 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:12:40,514 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:12:40,520 - main - INFO - Response: 200
+2025-12-07 05:12:40,520 - main - INFO - Response: 200
+2025-12-07 05:13:11,665 - main - INFO - Request: POST /ask
+2025-12-07 05:13:11,665 - main - INFO - Request: POST /ask
+2025-12-07 05:13:12,826 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:13:12,826 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:13:13,320 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:13:13,320 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:13:24,683 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:13:24,683 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:13:24,686 - main - INFO - Response: 200
+2025-12-07 05:13:24,686 - main - INFO - Response: 200
+2025-12-07 05:14:40,151 - main - INFO - Request: POST /ask
+2025-12-07 05:14:40,151 - main - INFO - Request: POST /ask
+2025-12-07 05:14:41,390 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:14:41,390 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:14:41,881 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:14:41,881 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:14:53,467 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:14:53,467 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:14:53,473 - main - INFO - Response: 200
+2025-12-07 05:14:53,473 - main - INFO - Response: 200
+2025-12-07 05:20:47,241 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:20:47,241 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:20:47,242 - main - INFO - Response: 200
+2025-12-07 05:20:47,242 - main - INFO - Response: 200
+2025-12-07 05:20:47,249 - main - INFO - Request: POST /ask
+2025-12-07 05:20:47,249 - main - INFO - Request: POST /ask
+2025-12-07 05:20:48,454 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:20:48,454 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:20:49,006 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:20:49,006 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:21:02,201 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:21:02,201 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:21:02,215 - main - INFO - Response: 200
+2025-12-07 05:21:02,215 - main - INFO - Response: 200
+2025-12-07 05:31:26,972 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:31:26,972 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:31:26,985 - main - INFO - Response: 200
+2025-12-07 05:31:26,985 - main - INFO - Response: 200
+2025-12-07 05:31:26,998 - main - INFO - Request: POST /ask
+2025-12-07 05:31:26,998 - main - INFO - Request: POST /ask
+2025-12-07 05:31:28,260 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:31:28,260 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:31:28,839 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:31:28,839 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:31:41,245 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:31:41,245 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:31:41,252 - main - INFO - Response: 200
+2025-12-07 05:31:41,252 - main - INFO - Response: 200
+2025-12-07 05:32:18,177 - main - INFO - Request: POST /ask
+2025-12-07 05:32:18,177 - main - INFO - Request: POST /ask
+2025-12-07 05:32:19,343 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:32:19,343 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:32:19,888 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:32:19,888 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:32:30,972 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:32:30,972 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:32:30,988 - main - INFO - Response: 200
+2025-12-07 05:32:30,988 - main - INFO - Response: 200
+2025-12-07 05:33:18,338 - main - INFO - Request: POST /ask
+2025-12-07 05:33:18,338 - main - INFO - Request: POST /ask
+2025-12-07 05:33:19,573 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:33:19,573 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:33:20,235 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:33:20,235 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:33:34,069 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:33:34,069 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:33:34,088 - main - INFO - Response: 200
+2025-12-07 05:33:34,088 - main - INFO - Response: 200
+2025-12-07 05:42:08,362 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:42:08,362 - main - INFO - Request: OPTIONS /ask
+2025-12-07 05:42:08,376 - main - INFO - Response: 200
+2025-12-07 05:42:08,376 - main - INFO - Response: 200
+2025-12-07 05:42:08,386 - main - INFO - Request: POST /ask
+2025-12-07 05:42:08,386 - main - INFO - Request: POST /ask
+2025-12-07 05:42:09,594 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:42:09,594 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:42:10,131 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:42:10,131 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:42:22,662 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:42:22,662 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:42:22,670 - main - INFO - Response: 200
+2025-12-07 05:42:22,670 - main - INFO - Response: 200
+2025-12-07 05:42:36,380 - main - INFO - Request: POST /ask
+2025-12-07 05:42:36,380 - main - INFO - Request: POST /ask
+2025-12-07 05:42:37,549 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:42:37,549 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:42:38,099 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:42:38,099 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:42:50,949 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:42:50,949 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:42:50,964 - main - INFO - Response: 200
+2025-12-07 05:42:50,964 - main - INFO - Response: 200
+2025-12-07 05:43:19,665 - main - INFO - Request: POST /ask
+2025-12-07 05:43:19,665 - main - INFO - Request: POST /ask
+2025-12-07 05:43:20,830 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:43:20,830 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:43:21,340 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:43:21,340 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:43:32,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:43:32,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:43:32,475 - main - INFO - Response: 200
+2025-12-07 05:43:32,475 - main - INFO - Response: 200
+2025-12-07 05:43:49,626 - main - INFO - Request: POST /ask
+2025-12-07 05:43:49,626 - main - INFO - Request: POST /ask
+2025-12-07 05:43:50,812 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:43:50,812 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:43:51,345 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:43:51,345 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 05:44:03,766 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:44:03,766 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:44:03,772 - main - INFO - Response: 200
+2025-12-07 05:44:03,772 - main - INFO - Response: 200
+2025-12-07 06:00:45,687 - main - INFO - Request: OPTIONS /ask
+2025-12-07 06:00:45,687 - main - INFO - Request: OPTIONS /ask
+2025-12-07 06:00:45,720 - main - INFO - Response: 200
+2025-12-07 06:00:45,720 - main - INFO - Response: 200
+2025-12-07 06:00:45,749 - main - INFO - Request: POST /ask
+2025-12-07 06:00:45,749 - main - INFO - Request: POST /ask
+2025-12-07 06:00:47,215 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:00:47,215 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:00:47,808 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:00:47,808 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:01:00,384 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:01:00,384 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:01:00,404 - main - INFO - Response: 200
+2025-12-07 06:01:00,404 - main - INFO - Response: 200
+2025-12-07 06:01:04,128 - main - INFO - Request: POST /ask
+2025-12-07 06:01:04,128 - main - INFO - Request: POST /ask
+2025-12-07 06:01:05,289 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:01:05,289 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:01:05,833 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:01:05,833 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:01:18,386 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:01:18,386 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:01:18,394 - main - INFO - Response: 200
+2025-12-07 06:01:18,394 - main - INFO - Response: 200
+2025-12-07 06:26:13,426 - main - INFO - Request: GET /health
+2025-12-07 06:26:13,426 - main - INFO - Request: GET /health
+2025-12-07 06:26:13,494 - main - INFO - Response: 200
+2025-12-07 06:26:13,494 - main - INFO - Response: 200
+2025-12-07 06:27:41,631 - main - INFO - Request: OPTIONS /ask
+2025-12-07 06:27:41,631 - main - INFO - Request: OPTIONS /ask
+2025-12-07 06:27:41,639 - main - INFO - Response: 200
+2025-12-07 06:27:41,639 - main - INFO - Response: 200
+2025-12-07 06:27:41,712 - main - INFO - Request: POST /ask
+2025-12-07 06:27:41,712 - main - INFO - Request: POST /ask
+2025-12-07 06:27:43,029 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:27:43,029 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:27:43,612 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:27:43,612 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:27:55,930 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:27:55,930 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:27:55,936 - main - INFO - Response: 200
+2025-12-07 06:27:55,936 - main - INFO - Response: 200
+2025-12-07 06:28:06,979 - main - INFO - Request: POST /ask
+2025-12-07 06:28:06,979 - main - INFO - Request: POST /ask
+2025-12-07 06:28:08,148 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:08,148 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:08,686 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:28:08,686 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:28:18,341 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:18,341 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:18,356 - openai._base_client - INFO - Retrying request to /chat/completions in 0.466681 seconds
+2025-12-07 06:28:18,356 - openai._base_client - INFO - Retrying request to /chat/completions in 0.466681 seconds
+2025-12-07 06:28:19,465 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:19,465 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:19,467 - openai._base_client - INFO - Retrying request to /chat/completions in 0.873431 seconds
+2025-12-07 06:28:19,467 - openai._base_client - INFO - Retrying request to /chat/completions in 0.873431 seconds
+2025-12-07 06:28:21,003 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:21,003 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:21,034 - main - INFO - Response: 200
+2025-12-07 06:28:21,034 - main - INFO - Response: 200
+2025-12-07 06:28:40,354 - main - INFO - Request: POST /ask
+2025-12-07 06:28:40,354 - main - INFO - Request: POST /ask
+2025-12-07 06:28:41,521 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:41,521 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:42,028 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:28:42,028 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:28:51,724 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:51,724 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:51,725 - openai._base_client - INFO - Retrying request to /chat/completions in 0.456992 seconds
+2025-12-07 06:28:51,725 - openai._base_client - INFO - Retrying request to /chat/completions in 0.456992 seconds
+2025-12-07 06:28:52,831 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:52,831 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:52,833 - openai._base_client - INFO - Retrying request to /chat/completions in 0.813576 seconds
+2025-12-07 06:28:52,833 - openai._base_client - INFO - Retrying request to /chat/completions in 0.813576 seconds
+2025-12-07 06:28:54,294 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:54,294 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:28:54,299 - main - INFO - Response: 200
+2025-12-07 06:28:54,299 - main - INFO - Response: 200
+2025-12-07 06:28:54,302 - main - INFO - Request: POST /ask
+2025-12-07 06:28:54,302 - main - INFO - Request: POST /ask
+2025-12-07 06:28:55,474 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:55,474 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:28:56,035 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:28:56,035 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:29:05,760 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:05,760 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:05,762 - openai._base_client - INFO - Retrying request to /chat/completions in 0.402890 seconds
+2025-12-07 06:29:05,762 - openai._base_client - INFO - Retrying request to /chat/completions in 0.402890 seconds
+2025-12-07 06:29:06,901 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:06,901 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:06,902 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860802 seconds
+2025-12-07 06:29:06,902 - openai._base_client - INFO - Retrying request to /chat/completions in 0.860802 seconds
+2025-12-07 06:29:08,407 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:08,407 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:08,419 - main - INFO - Response: 200
+2025-12-07 06:29:08,419 - main - INFO - Response: 200
+2025-12-07 06:29:44,804 - main - INFO - Request: POST /ask
+2025-12-07 06:29:44,804 - main - INFO - Request: POST /ask
+2025-12-07 06:29:46,266 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:29:46,266 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:29:46,834 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:29:46,834 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:29:56,735 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:56,735 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:56,737 - openai._base_client - INFO - Retrying request to /chat/completions in 0.424930 seconds
+2025-12-07 06:29:56,737 - openai._base_client - INFO - Retrying request to /chat/completions in 0.424930 seconds
+2025-12-07 06:29:57,824 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:57,824 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:57,825 - openai._base_client - INFO - Retrying request to /chat/completions in 0.901420 seconds
+2025-12-07 06:29:57,825 - openai._base_client - INFO - Retrying request to /chat/completions in 0.901420 seconds
+2025-12-07 06:29:59,380 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:59,380 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:29:59,383 - main - INFO - Response: 200
+2025-12-07 06:29:59,383 - main - INFO - Response: 200
+2025-12-07 06:36:33,996 - main - INFO - Request: POST /ask
+2025-12-07 06:36:33,996 - main - INFO - Request: POST /ask
+2025-12-07 06:36:35,402 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:36:35,402 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:36:35,990 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:36:35,990 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:36:46,674 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:46,674 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:46,701 - openai._base_client - INFO - Retrying request to /chat/completions in 0.465121 seconds
+2025-12-07 06:36:46,701 - openai._base_client - INFO - Retrying request to /chat/completions in 0.465121 seconds
+2025-12-07 06:36:47,828 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:47,828 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:47,831 - openai._base_client - INFO - Retrying request to /chat/completions in 0.917493 seconds
+2025-12-07 06:36:47,831 - openai._base_client - INFO - Retrying request to /chat/completions in 0.917493 seconds
+2025-12-07 06:36:49,404 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:49,404 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:36:49,425 - main - INFO - Response: 200
+2025-12-07 06:36:49,425 - main - INFO - Response: 200
+2025-12-07 06:37:02,531 - main - INFO - Request: POST /ask
+2025-12-07 06:37:02,531 - main - INFO - Request: POST /ask
+2025-12-07 06:37:03,699 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:37:03,699 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:37:04,232 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:37:04,232 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:37:14,280 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:14,280 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:14,282 - openai._base_client - INFO - Retrying request to /chat/completions in 0.413463 seconds
+2025-12-07 06:37:14,282 - openai._base_client - INFO - Retrying request to /chat/completions in 0.413463 seconds
+2025-12-07 06:37:15,359 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:15,359 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:15,362 - openai._base_client - INFO - Retrying request to /chat/completions in 0.927786 seconds
+2025-12-07 06:37:15,362 - openai._base_client - INFO - Retrying request to /chat/completions in 0.927786 seconds
+2025-12-07 06:37:16,941 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:16,941 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 06:37:16,944 - main - INFO - Response: 200
+2025-12-07 06:37:16,944 - main - INFO - Response: 200
+2025-12-07 06:51:10,848 - main - INFO - Request: POST /ask
+2025-12-07 06:51:10,848 - main - INFO - Request: POST /ask
+2025-12-07 06:51:14,059 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:51:14,059 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:51:14,625 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:51:14,625 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:51:26,289 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:51:26,289 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:51:26,307 - main - INFO - Response: 200
+2025-12-07 06:51:26,307 - main - INFO - Response: 200
+2025-12-07 06:53:08,262 - main - INFO - Request: POST /ask
+2025-12-07 06:53:08,262 - main - INFO - Request: POST /ask
+2025-12-07 06:53:09,420 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:53:09,420 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 06:53:09,960 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:53:09,960 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 06:53:23,030 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:53:23,030 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 06:53:23,035 - main - INFO - Response: 200
+2025-12-07 06:53:23,035 - main - INFO - Response: 200
+2025-12-07 07:00:43,315 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:00:43,315 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:00:43,353 - main - INFO - Response: 200
+2025-12-07 07:00:43,353 - main - INFO - Response: 200
+2025-12-07 07:00:43,376 - main - INFO - Request: POST /ask
+2025-12-07 07:00:43,376 - main - INFO - Request: POST /ask
+2025-12-07 07:00:44,797 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:00:44,797 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:00:45,391 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:00:45,391 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:00:55,955 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:55,955 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:55,963 - openai._base_client - INFO - Retrying request to /chat/completions in 0.498380 seconds
+2025-12-07 07:00:55,963 - openai._base_client - INFO - Retrying request to /chat/completions in 0.498380 seconds
+2025-12-07 07:00:57,125 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:57,125 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:57,127 - openai._base_client - INFO - Retrying request to /chat/completions in 0.844088 seconds
+2025-12-07 07:00:57,127 - openai._base_client - INFO - Retrying request to /chat/completions in 0.844088 seconds
+2025-12-07 07:00:58,628 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:58,628 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:00:58,645 - main - INFO - Response: 200
+2025-12-07 07:00:58,645 - main - INFO - Response: 200
+2025-12-07 07:01:25,252 - main - INFO - Request: POST /ask
+2025-12-07 07:01:25,252 - main - INFO - Request: POST /ask
+2025-12-07 07:01:28,120 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:01:28,120 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:01:28,654 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:01:28,654 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:01:39,983 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:01:39,983 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:01:40,004 - main - INFO - Response: 200
+2025-12-07 07:01:40,004 - main - INFO - Response: 200
+2025-12-07 07:03:00,230 - main - INFO - Request: POST /ask
+2025-12-07 07:03:00,230 - main - INFO - Request: POST /ask
+2025-12-07 07:03:01,394 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:03:01,394 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:03:01,952 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:03:01,952 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:03:13,154 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:13,154 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:13,156 - openai._base_client - INFO - Retrying request to /chat/completions in 0.400102 seconds
+2025-12-07 07:03:13,156 - openai._base_client - INFO - Retrying request to /chat/completions in 0.400102 seconds
+2025-12-07 07:03:14,207 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:14,207 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:14,210 - openai._base_client - INFO - Retrying request to /chat/completions in 0.863877 seconds
+2025-12-07 07:03:14,210 - openai._base_client - INFO - Retrying request to /chat/completions in 0.863877 seconds
+2025-12-07 07:03:15,802 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:15,802 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:03:15,806 - main - INFO - Response: 200
+2025-12-07 07:03:15,806 - main - INFO - Response: 200
+2025-12-07 07:11:55,282 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:11:55,282 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:11:55,298 - main - INFO - Response: 200
+2025-12-07 07:11:55,298 - main - INFO - Response: 200
+2025-12-07 07:11:55,339 - main - INFO - Request: POST /ask
+2025-12-07 07:11:55,339 - main - INFO - Request: POST /ask
+2025-12-07 07:11:56,927 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:11:56,927 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:11:57,550 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:11:57,550 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:12:10,498 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:10,498 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:10,523 - openai._base_client - INFO - Retrying request to /chat/completions in 0.437634 seconds
+2025-12-07 07:12:10,523 - openai._base_client - INFO - Retrying request to /chat/completions in 0.437634 seconds
+2025-12-07 07:12:11,650 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:11,650 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:11,658 - openai._base_client - INFO - Retrying request to /chat/completions in 0.931295 seconds
+2025-12-07 07:12:11,658 - openai._base_client - INFO - Retrying request to /chat/completions in 0.931295 seconds
+2025-12-07 07:12:13,309 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:13,309 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:12:13,375 - main - INFO - Response: 200
+2025-12-07 07:12:13,375 - main - INFO - Response: 200
+2025-12-07 07:14:09,908 - main - INFO - Request: POST /ask
+2025-12-07 07:14:09,908 - main - INFO - Request: POST /ask
+2025-12-07 07:14:11,627 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:14:11,627 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:14:12,318 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:14:12,318 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:14:24,406 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:14:24,406 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:14:24,431 - main - INFO - Response: 200
+2025-12-07 07:14:24,431 - main - INFO - Response: 200
+2025-12-07 07:41:25,871 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:41:25,871 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:41:25,882 - main - INFO - Response: 200
+2025-12-07 07:41:25,882 - main - INFO - Response: 200
+2025-12-07 07:41:25,908 - main - INFO - Request: POST /ask
+2025-12-07 07:41:25,908 - main - INFO - Request: POST /ask
+2025-12-07 07:41:27,261 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:41:27,261 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:41:28,168 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:41:28,168 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:41:44,076 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:44,076 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:44,089 - openai._base_client - INFO - Retrying request to /chat/completions in 0.395803 seconds
+2025-12-07 07:41:44,089 - openai._base_client - INFO - Retrying request to /chat/completions in 0.395803 seconds
+2025-12-07 07:41:45,306 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:45,306 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:45,322 - openai._base_client - INFO - Retrying request to /chat/completions in 0.755230 seconds
+2025-12-07 07:41:45,322 - openai._base_client - INFO - Retrying request to /chat/completions in 0.755230 seconds
+2025-12-07 07:41:48,967 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:48,967 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 07:41:48,996 - main - INFO - Response: 200
+2025-12-07 07:41:48,996 - main - INFO - Response: 200
+2025-12-07 07:44:38,048 - main - INFO - Request: POST /ask
+2025-12-07 07:44:38,048 - main - INFO - Request: POST /ask
+2025-12-07 07:44:39,632 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:44:39,632 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:44:40,186 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:44:40,186 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:44:53,869 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:44:53,869 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:44:53,889 - main - INFO - Response: 200
+2025-12-07 07:44:53,889 - main - INFO - Response: 200
+2025-12-07 07:57:14,775 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:57:14,775 - main - INFO - Request: OPTIONS /ask
+2025-12-07 07:57:14,777 - main - INFO - Response: 200
+2025-12-07 07:57:14,777 - main - INFO - Response: 200
+2025-12-07 07:57:14,780 - main - INFO - Request: POST /ask
+2025-12-07 07:57:14,780 - main - INFO - Request: POST /ask
+2025-12-07 07:57:16,918 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:57:16,918 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:57:17,461 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:57:17,461 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:57:30,710 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:57:30,710 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:57:30,720 - main - INFO - Response: 200
+2025-12-07 07:57:30,720 - main - INFO - Response: 200
+2025-12-07 07:58:16,841 - main - INFO - Request: POST /ask
+2025-12-07 07:58:16,841 - main - INFO - Request: POST /ask
+2025-12-07 07:58:18,011 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:58:18,011 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:58:18,516 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:58:18,516 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:58:32,275 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:58:32,275 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:58:32,279 - main - INFO - Response: 200
+2025-12-07 07:58:32,279 - main - INFO - Response: 200
+2025-12-07 07:58:42,999 - main - INFO - Request: POST /ask
+2025-12-07 07:58:42,999 - main - INFO - Request: POST /ask
+2025-12-07 07:58:44,149 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:58:44,149 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:58:44,667 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:58:44,667 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:58:56,466 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:58:56,466 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:58:56,470 - main - INFO - Response: 200
+2025-12-07 07:58:56,470 - main - INFO - Response: 200
+2025-12-07 07:59:05,948 - main - INFO - Request: POST /ask
+2025-12-07 07:59:05,948 - main - INFO - Request: POST /ask
+2025-12-07 07:59:07,133 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:59:07,133 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:59:07,678 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:59:07,678 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:59:20,872 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:59:20,872 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:59:20,876 - main - INFO - Response: 200
+2025-12-07 07:59:20,876 - main - INFO - Response: 200
+2025-12-07 07:59:43,868 - main - INFO - Request: POST /ask
+2025-12-07 07:59:43,868 - main - INFO - Request: POST /ask
+2025-12-07 07:59:45,043 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:59:45,043 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 07:59:45,578 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:59:45,578 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 07:59:58,267 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:59:58,267 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 07:59:58,271 - main - INFO - Response: 200
+2025-12-07 07:59:58,271 - main - INFO - Response: 200
+2025-12-07 08:13:52,399 - main - INFO - Request: POST /ask
+2025-12-07 08:13:52,399 - main - INFO - Request: POST /ask
+2025-12-07 08:13:54,503 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:13:54,503 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:13:55,032 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:13:55,032 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:14:06,278 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:14:06,278 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:14:06,308 - main - INFO - Response: 200
+2025-12-07 08:14:06,308 - main - INFO - Response: 200
+2025-12-07 08:15:25,253 - main - INFO - Request: POST /ask
+2025-12-07 08:15:25,253 - main - INFO - Request: POST /ask
+2025-12-07 08:15:26,422 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:15:26,422 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:15:26,954 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:15:26,954 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:15:39,650 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:15:39,650 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:15:39,653 - main - INFO - Response: 200
+2025-12-07 08:15:39,653 - main - INFO - Response: 200
+2025-12-07 08:16:21,097 - main - INFO - Request: POST /ask
+2025-12-07 08:16:21,097 - main - INFO - Request: POST /ask
+2025-12-07 08:16:22,274 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:16:22,274 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:16:23,222 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:16:23,222 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:16:35,926 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:16:35,926 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:16:35,930 - main - INFO - Response: 200
+2025-12-07 08:16:35,930 - main - INFO - Response: 200
+2025-12-07 08:17:52,475 - main - INFO - Request: POST /ask
+2025-12-07 08:17:52,475 - main - INFO - Request: POST /ask
+2025-12-07 08:17:53,637 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:17:53,637 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:17:54,166 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:17:54,166 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:18:07,002 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:18:07,002 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:18:07,005 - main - INFO - Response: 200
+2025-12-07 08:18:07,005 - main - INFO - Response: 200
+2025-12-07 08:22:33,770 - main - INFO - Request: OPTIONS /ask
+2025-12-07 08:22:33,770 - main - INFO - Request: OPTIONS /ask
+2025-12-07 08:22:33,772 - main - INFO - Response: 200
+2025-12-07 08:22:33,772 - main - INFO - Response: 200
+2025-12-07 08:22:33,776 - main - INFO - Request: POST /ask
+2025-12-07 08:22:33,776 - main - INFO - Request: POST /ask
+2025-12-07 08:22:35,551 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:22:35,551 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:22:36,112 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:22:36,112 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:22:48,996 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:22:48,996 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:22:49,008 - main - INFO - Response: 200
+2025-12-07 08:22:49,008 - main - INFO - Response: 200
+2025-12-07 08:24:01,876 - main - INFO - Request: POST /ask
+2025-12-07 08:24:01,876 - main - INFO - Request: POST /ask
+2025-12-07 08:24:03,082 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:24:03,082 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:24:03,593 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:24:03,593 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:24:14,894 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:24:14,894 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:24:14,908 - main - INFO - Response: 200
+2025-12-07 08:24:14,908 - main - INFO - Response: 200
+2025-12-07 08:29:28,618 - main - INFO - Request: POST /ask
+2025-12-07 08:29:28,618 - main - INFO - Request: POST /ask
+2025-12-07 08:29:29,811 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:29:29,811 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:29:30,371 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:29:30,371 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:29:42,158 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:29:42,158 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:29:42,167 - main - INFO - Response: 200
+2025-12-07 08:29:42,167 - main - INFO - Response: 200
+2025-12-07 08:32:23,796 - main - INFO - Request: GET /documents
+2025-12-07 08:32:23,796 - main - INFO - Request: GET /documents
+2025-12-07 08:32:25,567 - main - INFO - Response: 200
+2025-12-07 08:32:25,567 - main - INFO - Response: 200
+2025-12-07 08:36:42,320 - main - INFO - Request: GET /documents
+2025-12-07 08:36:42,320 - main - INFO - Request: GET /documents
+2025-12-07 08:36:44,057 - main - INFO - Response: 200
+2025-12-07 08:36:44,057 - main - INFO - Response: 200
+2025-12-07 08:38:23,509 - main - INFO - Request: POST /ask
+2025-12-07 08:38:23,509 - main - INFO - Request: POST /ask
+2025-12-07 08:38:24,676 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:38:24,676 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:38:25,200 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:38:25,200 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:38:36,427 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:38:36,427 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:38:36,442 - main - INFO - Response: 200
+2025-12-07 08:38:36,442 - main - INFO - Response: 200
+2025-12-07 08:40:19,359 - main - INFO - Request: POST /ask
+2025-12-07 08:40:19,359 - main - INFO - Request: POST /ask
+2025-12-07 08:40:20,557 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:40:20,557 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:40:21,143 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:40:21,143 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:40:33,095 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:40:33,095 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:40:33,106 - main - INFO - Response: 200
+2025-12-07 08:40:33,106 - main - INFO - Response: 200
+2025-12-07 08:42:37,080 - main - INFO - Request: POST /ask
+2025-12-07 08:42:37,080 - main - INFO - Request: POST /ask
+2025-12-07 08:42:38,227 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:42:38,227 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:42:38,744 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:42:38,744 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:42:52,033 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:42:52,033 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:42:52,040 - main - INFO - Response: 200
+2025-12-07 08:42:52,040 - main - INFO - Response: 200
+2025-12-07 08:49:45,039 - main - INFO - Request: OPTIONS /ask
+2025-12-07 08:49:45,039 - main - INFO - Request: OPTIONS /ask
+2025-12-07 08:49:45,040 - main - INFO - Response: 200
+2025-12-07 08:49:45,040 - main - INFO - Response: 200
+2025-12-07 08:49:45,044 - main - INFO - Request: POST /ask
+2025-12-07 08:49:45,044 - main - INFO - Request: POST /ask
+2025-12-07 08:49:47,030 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:49:47,030 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:49:47,945 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:49:47,945 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:49:50,690 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:49:50,690 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:49:50,700 - main - INFO - Response: 200
+2025-12-07 08:49:50,700 - main - INFO - Response: 200
+2025-12-07 08:50:15,986 - main - INFO - Request: POST /ask
+2025-12-07 08:50:15,986 - main - INFO - Request: POST /ask
+2025-12-07 08:50:17,457 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:17,457 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:18,000 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:18,000 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:19,672 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:19,672 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:19,675 - openai._base_client - INFO - Retrying request to /chat/completions in 0.477456 seconds
+2025-12-07 08:50:19,675 - openai._base_client - INFO - Retrying request to /chat/completions in 0.477456 seconds
+2025-12-07 08:50:20,872 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:20,872 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:20,874 - openai._base_client - INFO - Retrying request to /chat/completions in 0.933241 seconds
+2025-12-07 08:50:20,874 - openai._base_client - INFO - Retrying request to /chat/completions in 0.933241 seconds
+2025-12-07 08:50:22,505 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:22,505 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:22,509 - main - INFO - Response: 200
+2025-12-07 08:50:22,509 - main - INFO - Response: 200
+2025-12-07 08:50:30,927 - main - INFO - Request: POST /ask
+2025-12-07 08:50:30,927 - main - INFO - Request: POST /ask
+2025-12-07 08:50:32,126 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:32,126 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:32,658 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:32,658 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:34,004 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:34,004 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:34,008 - openai._base_client - INFO - Retrying request to /chat/completions in 0.488642 seconds
+2025-12-07 08:50:34,008 - openai._base_client - INFO - Retrying request to /chat/completions in 0.488642 seconds
+2025-12-07 08:50:35,190 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:35,190 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:35,193 - openai._base_client - INFO - Retrying request to /chat/completions in 0.810438 seconds
+2025-12-07 08:50:35,193 - openai._base_client - INFO - Retrying request to /chat/completions in 0.810438 seconds
+2025-12-07 08:50:36,693 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:36,693 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:36,698 - main - INFO - Response: 200
+2025-12-07 08:50:36,698 - main - INFO - Response: 200
+2025-12-07 08:50:43,231 - main - INFO - Request: POST /ask
+2025-12-07 08:50:43,231 - main - INFO - Request: POST /ask
+2025-12-07 08:50:44,418 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:44,418 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:50:44,957 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:44,957 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:50:46,278 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:46,278 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:46,281 - openai._base_client - INFO - Retrying request to /chat/completions in 0.488853 seconds
+2025-12-07 08:50:46,281 - openai._base_client - INFO - Retrying request to /chat/completions in 0.488853 seconds
+2025-12-07 08:50:47,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:47,441 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:47,443 - openai._base_client - INFO - Retrying request to /chat/completions in 0.848267 seconds
+2025-12-07 08:50:47,443 - openai._base_client - INFO - Retrying request to /chat/completions in 0.848267 seconds
+2025-12-07 08:50:48,998 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:48,998 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-07 08:50:49,006 - main - INFO - Response: 200
+2025-12-07 08:50:49,006 - main - INFO - Response: 200
+2025-12-07 08:55:39,301 - main - INFO - Request: POST /ask
+2025-12-07 08:55:39,301 - main - INFO - Request: POST /ask
+2025-12-07 08:55:41,233 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:55:41,233 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:55:41,825 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:55:41,825 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:55:44,683 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:55:44,683 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:55:44,698 - main - INFO - Response: 200
+2025-12-07 08:55:44,698 - main - INFO - Response: 200
+2025-12-07 08:55:54,398 - main - INFO - Request: POST /ask
+2025-12-07 08:55:54,398 - main - INFO - Request: POST /ask
+2025-12-07 08:55:55,596 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:55:55,596 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:55:56,171 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:55:56,171 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:55:59,430 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:55:59,430 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:55:59,433 - main - INFO - Response: 200
+2025-12-07 08:55:59,433 - main - INFO - Response: 200
+2025-12-07 08:56:08,927 - main - INFO - Request: POST /ask
+2025-12-07 08:56:08,927 - main - INFO - Request: POST /ask
+2025-12-07 08:56:10,090 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:56:10,090 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:56:10,622 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:56:10,622 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:56:14,603 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:56:14,603 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:56:14,610 - main - INFO - Response: 200
+2025-12-07 08:56:14,610 - main - INFO - Response: 200
+2025-12-07 08:56:51,578 - main - INFO - Request: POST /ask
+2025-12-07 08:56:51,578 - main - INFO - Request: POST /ask
+2025-12-07 08:56:52,756 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:56:52,756 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:56:53,310 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:56:53,310 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:56:56,840 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:56:56,840 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:56:56,844 - main - INFO - Response: 200
+2025-12-07 08:56:56,844 - main - INFO - Response: 200
+2025-12-07 08:57:56,627 - main - INFO - Request: POST /ask
+2025-12-07 08:57:56,627 - main - INFO - Request: POST /ask
+2025-12-07 08:57:57,806 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:57:57,806 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:57:58,396 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:57:58,396 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:58:01,880 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:58:01,880 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:58:01,894 - main - INFO - Response: 200
+2025-12-07 08:58:01,894 - main - INFO - Response: 200
+2025-12-07 08:58:16,160 - main - INFO - Request: POST /ask
+2025-12-07 08:58:16,160 - main - INFO - Request: POST /ask
+2025-12-07 08:58:17,665 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:58:17,665 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/embeddings "HTTP/1.1 200 OK"
+2025-12-07 08:58:18,227 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:58:18,227 - httpx - INFO - HTTP Request: POST https://0cdf0360-1226-4d8f-ae58-9b73602870ce.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/ai_book_chunks/points/search "HTTP/1.1 200 OK"
+2025-12-07 08:58:21,384 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:58:21,384 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 08:58:21,395 - main - INFO - Response: 200
+2025-12-07 08:58:21,395 - main - INFO - Response: 200
+2025-12-07 09:22:33,756 - main - INFO - Starting up AI-BOOK RAG Chatbot Backend
+2025-12-07 09:22:33,756 - main - INFO - Starting up AI-BOOK RAG Chatbot Backend
+2025-12-07 09:47:12,311 - main - INFO - Shutting down AI-BOOK RAG Chatbot Backend
+2025-12-07 09:47:12,311 - main - INFO - Shutting down AI-BOOK RAG Chatbot Backend
