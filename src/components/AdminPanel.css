@@ -1,0 +1,133 @@
+.admin-panel {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.admin-panel h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.admin-panel h3 {
+  color: #34495e;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Upload Section */
+.upload-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border: 1px solid #e9ecef;
+}
+
+.file-input-wrapper {
+  margin-bottom: 1rem;
+}
+
+.file-input-wrapper input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: white;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.reindex-button {
+  background-color: #e74c3c;
+}
+
+.reindex-button:hover {
+  background-color: #c0392b;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.upload-status {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #d5dbdb;
+  color: #2c3e50;
+}
+
+/* Documents Section */
+.documents-section {
+  margin-top: 2rem;
+}
+
+.documents-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.documents-table th,
+.documents-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.documents-table th {
+  background-color: #f1f2f6;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.documents-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .documents-table {
+    font-size: 0.875rem;
+  }
+
+  .documents-table th,
+  .documents-table td {
+    padding: 0.5rem;
+  }
+}
