@@ -5,6 +5,7 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "vercel-build": "chmod +x ./node_modules/.bin/docusaurus && docusaurus build",
     "serve": "docusaurus serve",
     "backend:start": "cd backend && uvicorn main:app --reload --port 8000",
     "deploy:both": "echo 'Deploy frontend to Vercel and backend to Railway separately'"
