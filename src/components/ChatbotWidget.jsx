@@ -9,8 +9,8 @@ function ChatbotWidget() {
 
   // Backend API base URL - using window object for Docusaurus compatibility
   const API_BASE_URL = typeof window !== 'undefined'
-    ? (window.REACT_APP_API_BASE_URL || 'http://localhost:8000')
-    : 'http://localhost:8000';
+    ? (window.ENV?.REACT_APP_API_BASE_URL || 'http://localhost:8000')  // Backend running on port 8000
+    : 'http://localhost:8000';  // Backend running on port 8000
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
