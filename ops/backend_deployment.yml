@@ -1,0 +1,58 @@
+# FastAPI Backend Deployment Configuration
+# This configuration is for reference and deployment instructions
+
+# For production deployment, you can use these configurations:
+
+# Option 1: Using a cloud platform like Render, Railway, or Heroku
+# This is the recommended approach for Python FastAPI applications
+
+name: AI-BOOK RAG Chatbot Backend
+runtime: python
+build_command: pip install -r requirements.txt
+start_command: uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
+
+# Environment Variables to be set in your cloud platform:
+environment_variables:
+  - DATABASE_URL: "your_neon_postgres_connection_string"
+  - QDRANT_URL: "your_qdrant_cloud_url"
+  - QDRANT_API_KEY: "your_qdrant_api_key"
+  - QDRANT_COLLECTION_NAME: "ai_book_chunks"
+  - GEMINI_API_KEY: "your_gemini_api_key"
+  - ENVIRONMENT: "production"
+
+# Option 2: Using systemd on a Linux server
+# Create a service file at /etc/systemd/system/ai-book-backend.service
+systemd_service_config: |
+  [Unit]
+  Description=AI-Book RAG Chatbot Backend
+  After=network.target
+
+  [Service]
+  User=www-data
+  Group=www-data
+  WorkingDirectory=/path/to/your/backend
+  EnvironmentFile=/path/to/your/backend/.env
+  ExecStart=/path/to/your/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+  Restart=always
+
+  [Install]
+  WantedBy=multi-user.target
+
+# Option 3: Using a process manager like PM2
+pm2_config:
+  apps:
+    - name: ai-book-backend
+      script: ./venv/bin/uvicorn
+      args: main:app --host 0.0.0.0 --port 8000
+      instances: 2
+      exec_mode: cluster
+      env:
+        NODE_ENV: production
+        PORT: 8000
+      env_file: ./.env
+
+# For local development, you can run:
+local_development_command: uvicorn main:app --reload
+
+# For production deployment with gunicorn (recommended for production):
+production_command: gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
